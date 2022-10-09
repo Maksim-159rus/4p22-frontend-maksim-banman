@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+        <title>Address book</title>
+    </head>
+    <body>
+        <div class="address_box">
+            <header class="header">
+                <div class="header__container">
+                    <h1 class="header__h1">Адресная книга</h1>
+                </div>
+            </header>
+        </div>
+        <main>
+            <aside class="sidebar">
+                <div class="sidebar__case">
+                    <div class="sidebar__content">
+                        <nav class="sidebar__nav">
+                            <h2 class="sidebar__h2">Полезные ссылки</h2>
+                            <ul class="sidebar__info">
+                                <li class="sidebar__info-search">
+                                    <a
+                                        href="https://google.ru"
+                                        target="_blank"
+                                        class="sidebar__info-link"
+                                        rel="nofollow noopener noreferrer"
+                                        >Поисковик Google</a
+                                    >
+                                </li>
+                                <li class="sidebar__info-search">
+                                    <a
+                                        href="https://yandex.ru"
+                                        target="_blank"
+                                        class="sidebar__info-link"
+                                        rel="nofollow noopener noreferrer"
+                                        >Поисковик Yandex</a
+                                    >
+                                </li>
+                                <li class="sidebar__info-search">
+                                    <a
+                                        href="https://mail.ru"
+                                        target="_blank"
+                                        class="sidebar__info-link"
+                                        rel="nofollow noopener noreferrer"
+                                        >Поисковик Mail.ru</a
+                                    >
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </aside>
+            <div class="search-line">
+                <div class="search-line__case">
+                    <div class="search-line__form-case">
+                        <form
+                            class="search-line__form"
+                            action="#">
+                            <input
+                                class="search-line__input"
+                                type="text"
+                                placeholder="Поиск по фамилии" />
+                            <input
+                                class="search-line__submit"
+                                type="submit"
+                                name="submit"
+                                value="Найти" />
+                        </form>
+                    </div>
+                    <div class="search-line__alphabet">
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_1"
+                            >А</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_2"
+                            >Б</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_3"
+                            >В</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_4"
+                            >Г</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_5"
+                            >Д</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_6"
+                            >Е</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_7"
+                            >Ж</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_8"
+                            >З</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_9"
+                            >И</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_10"
+                            >К</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_11"
+                            >Л</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_12"
+                            >М</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_13"
+                            >Н</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_14"
+                            >О</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_15"
+                            >П</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_16"
+                            >Р</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_17"
+                            >С</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_18"
+                            >Т</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_19"
+                            >У</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_20"
+                            >Ф</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_21"
+                            >Х</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_22"
+                            >Ц</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_23"
+                            >Ч</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_24"
+                            >Ш</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_25"
+                            >Щ</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_26"
+                            >Э</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_27"
+                            >Ю</a
+                        >
+                        <a
+                            class="search-line__alphabet-link"
+                            href="#link_28"
+                            >Я</a
+                        >
+                    </div>
+                </div>
+            </div>
+            <section class="surnames">
+                <div class="surnames__case">
+                    <div
+                        class="surnames__box"
+                        id="link_1">
+                        <h3 class="surnames__box-subtitle">А</h3>
+                        <ul class="surnames__box-list">
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                            <li class="surnames__box-name">Адзянов</li>
+                        </ul>
+                    </div>
+                    <div
+                        class="surname__box"
+                        id="link_2"></div>
+                        <h3 class="surnames__box-subtitle">Б</h3>
+                        <ul class="surnames__box-list">
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                            <li class="surnames__box-name">Бобров</li>
+                        </ul>
+                    </div>
+                    <div 
+                    class="surname__box"
+                    id="link_3"></div>
+                    <h3 class="surnames__box-subtitle">В</h3>
+                    <ul class="surnames__box-list">
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                        <li class="surnames__box-name">Валиев</li>
+                    </ul>
+                </div>
+                <div 
+                class="surname__box"
+                id="link_4"></div>
+                <h3 class="surnames__box-subtitle">Г</h3>
+                <ul class="surnames__box-list">
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                    <li class="surnames__box-name">Галкин</li>
+                </ul>
+            </div>
+            <div 
+            class="surname__box"
+            id="link_5"></div>
+            <h3 class="surnames__box-subtitle">Д</h3>
+            <ul class="surnames__box-list">
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+                <li class="surnames__box-name">Дорохов</li>
+            </ul>
+            </div>
+            <div 
+            class="surname__box"
+            id="link_6"></div>
+            <h3 class="surnames__box-subtitle">Е</h3>
+            <ul class="surnames__box-list">
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+                <li class="surnames__box-name">Елецкий</li>
+            </ul>
+            </div>
+            <div 
+            class="surname__box"
+            id="link_7"></div>
+            <h3 class="surnames__box-subtitle">Ж</h3>
+            <ul class="surnames__box-list">
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+                <li class="surnames__box-name">Жуланов</li>
+            </ul>
+            </div>
+            <div 
+            class="surname__box"
+            id="link_8"></div>
+            <h3 class="surnames__box-subtitle">З</h3>
+            <ul class="surnames__box-list">
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+                <li class="surnames__box-name">Зеленин</li>
+            </ul>
+            </div>
+            <div 
+            class="surname__box"
+            id="link_9"></div>
+            <h3 class="surnames__box-subtitle">И</h3>
+            <ul class="surnames__box-list">
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+                <li class="surnames__box-name">Ивашкин</li>
+            </ul>
+            </div>
+                <div 
+                class="surname__box"
+                id="link_10"></div>
+                <h3 class="surnames__box-subtitle">Й</h3>
+                <ul class="surnames__box-list">
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                    <li class="surnames__box-name">Йелинек</li>
+                </ul>
+                </div>
+                <div 
+                class="surname__box"
+                id="link_11"></div>
+                <h3 class="surnames__box-subtitle">К</h3>
+                <ul class="surnames__box-list">
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                    <li class="surnames__box-name">Крамаров</li>
+                </ul>
+                </div>
+                <div 
+                class="surname__box"
+                id="link_12"></div>
+                <h3 class="surnames__box-subtitle">Л</h3>
+                <ul class="surnames__box-list">
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                    <li class="surnames__box-name">Ланцов</li>
+                </ul>
+                </div>
+                <div 
+                class="surname__box"
+                id="link_13"></div>
+                <h3 class="surnames__box-subtitle">М</h3>
+                <ul class="surnames__box-list">
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                    <li class="surnames__box-name">Мартынов</li>
+                </ul>
+                </div>
+                <div 
+                class="surname__box"
+                id="link_14"></div>
+                <h3 class="surnames__box-subtitle">Н</h3>
+                <ul class="surnames__box-list">
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                    <li class="surnames__box-name">Носков</li>
+                </ul>
+                </div>
+                <div 
+                class="surname__box"
+                id="link_15"></div>
+                <h3 class="surnames__box-subtitle">О</h3>
+                <ul class="surnames__box-list">
+                    <li class="surnames__box-name">Обабков</li>
+                    <li class="surnames__box-name">Обабков</li>
+                    <li class="surnames__box-name">Обабков</li>
+                    <li class="surnames__box-name">Обабков</li>
+                    <li class="surnames__box-name">Обабков</li>
+                    <li class="surnames__box-name">Обабков</li>
+                    <li class="surnames__box-name">Обабков</li>
+                    <li class="surnames__box-name">Обабков</li>
+                    <li class="surnames__box-name">Обабков</li>
+                    <li class="surnames__box-name">Обабков</li>
+                    <li class="surnames__box-name">Обабков</li>
+                </ul>
+                </div>
+                    <div 
+                    class="surname__box"
+                    id="link_16"></div>
+                    <h3 class="surnames__box-subtitle">П</h3>
+                    <ul class="surnames__box-list">
+                        <li class="surnames__box-name">Пантелеев</li>
+                        <li class="surnames__box-name">Пантелеев</li>
+                        <li class="surnames__box-name">Пантелеев</li>
+                        <li class="surnames__box-name">Пантелеев</li>
+                        <li class="surnames__box-name">Пантелеев</li>
+                        <li class="surnames__box-name">Пантелеев</li>
+                        <li class="surnames__box-name">Пантелеев</li>
+                        <li class="surnames__box-name">Пантелеев</li>
+                        <li class="surnames__box-name">Пантелеев</li>
+                        <li class="surnames__box-name">Пантелеев</li>
+                        <li class="surnames__box-name">Пантелеев</li>
+                    </ul>
+                    </div>
+                        <div 
+                        class="surname__box"
+                        id="link_17"></div>
+                        <h3 class="surnames__box-subtitle">Р</h3>
+                        <ul class="surnames__box-list">
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                            <li class="surnames__box-name">Рылеев</li>
+                        </ul>
+                        </div>
+                        <div 
+                        class="surname__box"
+                        id="link_18"></div>
+                        <h3 class="surnames__box-subtitle">С</h3>
+                        <ul class="surnames__box-list">
+                            <li class="surnames__box-name">Сысоев</li>
+                            <li class="surnames__box-name">Сысоев</li>
+                            <li class="surnames__box-name">Сысоев</li>
+                            <li class="surnames__box-name">Сысоев</li>
+                            <li class="surnames__box-name">Сысоев</li>
+                            <li class="surnames__box-name">Сысоев</li>
+                            <li class="surnames__box-name">Сысоев</li>
+                            <li class="surnames__box-name">Сысоев</li>
+                            <li class="surnames__box-name">Сысоев</li>
+                            <li class="surnames__box-name">Сысоев</li>
+                        </ul>
+                        </div>
+                        <div 
+                        class="surname__box"
+                        id="link_19"></div>
+                        <h3 class="surnames__box-subtitle">Т</h3>
+                        <ul class="surnames__box-list">
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                            <li class="surnames__box-name">Тарканов</li>
+                        </ul>
+                        </div>
+                        <div 
+                        class="surname__box"
+                        id="link_20"></div>
+                        <h3 class="surnames__box-subtitle">У</h3>
+                        <ul class="surnames__box-list">
+                            <li class="surnames__box-name">Умаров</li>
+                            <li class="surnames__box-name">Умаров</li>
+                            <li class="surnames__box-name">Умаров</li>
+                            <li class="surnames__box-name">Умаров</li>
+                            <li class="surnames__box-name">Умаров</li>
+                            <li class="surnames__box-name">Умаров</li>
+                            <li class="surnames__box-name">Умаров</li>
+                            <li class="surnames__box-name">Умаров</li>
+                            <li class="surnames__box-name">Умаров</li>
+                            <li class="surnames__box-name">Умаров</li>
+                            <li class="surnames__box-name">Умаров</li>
+                        </ul>
+                        </div>
+                        <div 
+                        class="surname__box"
+                        id="link_21"></div>
+                        <h3 class="surnames__box-subtitle">Ф</h3>
+                        <ul class="surnames__box-list">
+                            <li class="surnames__box-name">Филимонов</li>
+                            <li class="surnames__box-name">Филимонов</li>
+                            <li class="surnames__box-name">Филимонов</li>
+                            <li class="surnames__box-name">Филимонов</li>
+                            <li class="surnames__box-name">Филимонов</li>
+                            <li class="surnames__box-name">Филимонов</li>
+                            <li class="surnames__box-name">Филимонов</li>
+                            <li class="surnames__box-name">Филимонов</li>
+                            <li class="surnames__box-name">Филимонов</li>
+                            <li class="surnames__box-name">Филимонов</li>
+                            <li class="surnames__box-name">Филимонов</li>
+                        </ul>
+                        </div>
+                        <div 
+                        class="surname__box"
+                        id="link_22"></div>
+                        <h3 class="surnames__box-subtitle">Х</h3>
+                        <ul class="surnames__box-list">
+                            <li class="surnames__box-name">Харитонов</li>
+                            <li class="surnames__box-name">Харитонов</li>
+                            <li class="surnames__box-name">Харитонов</li>
+                            <li class="surnames__box-name">Харитонов</li>
+                            <li class="surnames__box-name">Харитонов</li>
+                            <li class="surnames__box-name">Харитонов</li>
+                            <li class="surnames__box-name">Харитонов</li>
+                            <li class="surnames__box-name">Харитонов</li>
+                            <li class="surnames__box-name">Харитонов</li>
+                            <li class="surnames__box-name">Харитонов</li>
+                        </ul>
+                        </div>
+                            <div 
+                            class="surname__box"
+                            id="link_23"></div>
+                            <h3 class="surnames__box-subtitle">Ц</h3>
+                            <ul class="surnames__box-list">
+                                <li class="surnames__box-name">Цыбулин</li>
+                                <li class="surnames__box-name">Цыбулин</li>
+                                <li class="surnames__box-name">Цыбулин</li>
+                                <li class="surnames__box-name">Цыбулин</li>
+                                <li class="surnames__box-name">Цыбулин</li>
+                                <li class="surnames__box-name">Цыбулин</li>
+                                <li class="surnames__box-name">Цыбулин</li>
+                                <li class="surnames__box-name">Цыбулин</li>
+                                <li class="surnames__box-name">Цыбулин</li>
+                                <li class="surnames__box-name">Цыбулин</li>
+                                <li class="surnames__box-name">Цыбулин</li>
+                            </ul>
+                            </div>
+                                <div 
+                                class="surname__box"
+                                id="link_24"></div>
+                                <h3 class="surnames__box-subtitle">Ч</h3>
+                                <ul class="surnames__box-list">
+                                    <li class="surnames__box-name">Чичиков</li>
+                                    <li class="surnames__box-name">Чичиков</li>
+                                    <li class="surnames__box-name">Чичиков</li>
+                                    <li class="surnames__box-name">Чичиков</li>
+                                    <li class="surnames__box-name">Чичиков</li>
+                                    <li class="surnames__box-name">Чичиков</li>
+                                    <li class="surnames__box-name">Чичиков</li>
+                                    <li class="surnames__box-name">Чичиков</li>
+                                    <li class="surnames__box-name">Чичиков</li>
+                                </ul>
+                                </div>
+                                <div 
+                                class="surname__box"
+                                id="link_25"></div>
+                                <h3 class="surnames__box-subtitle">Ш</h3>
+                                <ul class="surnames__box-list">
+                                    <li class="surnames__box-name">Шалаев</li>
+                                    <li class="surnames__box-name">Шалаев</li>
+                                    <li class="surnames__box-name">Шалаев</li>
+                                    <li class="surnames__box-name">Шалаев</li>
+                                    <li class="surnames__box-name">Шалаев</li>
+                                    <li class="surnames__box-name">Шалаев</li>
+                                    <li class="surnames__box-name">Шалаев</li>
+                                    <li class="surnames__box-name">Шалаев</li>
+                                    <li class="surnames__box-name">Шалаев</li>
+                                    <li class="surnames__box-name">Шалаев</li>
+                                </ul>
+                            </div>
+                                    <div 
+                                    class="surname__box"
+                                    id="link_26"></div>
+                                    <h3 class="surnames__box-subtitle">Щ</h3>
+                                    <ul class="surnames__box-list">
+                                        <li class="surnames__box-name">Щукин</li>
+                                        <li class="surnames__box-name">Щукин</li>
+                                        <li class="surnames__box-name">Щукин</li>
+                                        <li class="surnames__box-name">Щукин</li>
+                                        <li class="surnames__box-name">Щукин</li>
+                                        <li class="surnames__box-name">Щукин</li>
+                                        <li class="surnames__box-name">Щукин</li>
+                                        <li class="surnames__box-name">Щукин</li>
+                                        <li class="surnames__box-name">Щукин</li>
+                                        <li class="surnames__box-name">Щукин</li>
+                                    </ul>
+                                </div>
+                                        <div 
+                                        class="surname__box"
+                                        id="link_27"></div>
+                                        <h3 class="surnames__box-subtitle">Э</h3>
+                                        <ul class="surnames__box-list">
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                            <li class="surnames__box-name">Эйвазов</li>
+                                        </ul>
+                                    </div>
+                                            <div 
+                                            class="surname__box"
+                                            id="link_28"></div>
+                                            <h3 class="surnames__box-subtitle">Ю</h3>
+                                            <ul class="surnames__box-list">
+                                                <li class="surnames__box-name">Южаков</li>
+                                                <li class="surnames__box-name">Южаков</li>
+                                                <li class="surnames__box-name">Южаков</li>
+                                                <li class="surnames__box-name">Южаков</li>
+                                                <li class="surnames__box-name">Южаков</li>
+                                                <li class="surnames__box-name">Южаков</li>
+                                                <li class="surnames__box-name">Южаков</li>
+                                                <li class="surnames__box-name">Южаков</li>
+                                                <li class="surnames__box-name">Южаков</li>
+                                                <li class="surnames__box-name">Южаков</li>
+                                                <li class="surnames__box-name">Южаков</li>
+                                            </ul>
+                                        </div>
+                                                <div 
+                                                class="surname__box"
+                                                id="link_29"></div>
+                                                <h3 class="surnames__box-subtitle">Я</h3>
+                                                <ul class="surnames__box-list">
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                    <li class="surnames__box-name">Яблоков</li>
+                                                </ul>
+                                                </div>
+                </section>
+        </main>
+    </body>
+</html>
